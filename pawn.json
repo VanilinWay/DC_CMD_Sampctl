@@ -1,0 +1,21 @@
+{
+    "user": "VanilinWay",
+    "repo": "DC_CMD",
+    "resources": [
+        {
+            "name": "dc_cmd-win",
+            "platform": "windows",
+            "archive": false,
+            "plugins": ["dc_cmd.dll"]
+        },
+        {
+            "name": "dc_cmd-lin",
+            "platform": "linux",
+            "archive": false,
+            "plugins": ["dc_cmd.so"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["VanilinWay/DC_CMD"]
+    }
+}
